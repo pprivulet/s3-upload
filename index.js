@@ -39,7 +39,7 @@ function *list(next){
 */
 
 function *profile(next) {
-  this.body = yield render('new');
+  this.body = yield render('index');
 }
    	
 function *sign_s3(next){
