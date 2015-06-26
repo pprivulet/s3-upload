@@ -1,0 +1,19 @@
+{
+  "name": "s3-upload",
+  "description": "File upload directly from browse to S3 based on koa",
+  "author": "Raven",
+  "version": "0.0.1",
+  "repository": "https://github.com/pprivulet/s3-upload",
+  "dependencies": {
+    "aws-sdk": "^2.1.36",    
+    "co-views": ">=0.1.0",
+    "koa": ">=0.2.0",
+    "koa-logger": ">=1.1.0",
+    "koa-route": ">=1.0.2",
+    "koa-static": "^1.4.9",
+    "swig": ">=1.2.2"
+  },
+  "engines": {
+    "node": ">= 0.11.9"
+  }
+}
