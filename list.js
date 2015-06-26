@@ -1,6 +1,6 @@
 var AWS = require('aws-sdk');
 AWS.config.region = 'us-east-1';
-AWS.config.update({accessKeyId: 'AKIAJ3JNKAOGAFZIKEGQ', secretAccessKey: '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'});
+AWS.config.update({accessKeyId: 'access-key-id', secretAccessKey: 'secret-accesskey'});
 var s3 = new AWS.S3();
   s3.listBuckets(function(err, data) {
     if (err) { console.log("Error:", err); }
