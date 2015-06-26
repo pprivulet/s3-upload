@@ -10,8 +10,8 @@ var path = require('path');
 var AWS = require('aws-sdk');
 AWS.config.region = 'us-east-1';
 AWS.config.update({
-  accessKeyId: 'AKIAJ3JNKAOGAFZIKEGQ', 
-  secretAccessKey: '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'
+  accessKeyId: 'access-key-id', 
+  secretAccessKey: 'secret-access-key'
 });
 
 var route = require('koa-route');
